@@ -7,11 +7,27 @@
 
 import SwiftUI
 
+
+let defaultTime: CGFloat = 20
+let timer = Timer.publish(every: 1, on: .main,in: .common).autoconnect()
+
+
+
+
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+	var body: some View{
+		TabView{
+			TimerView()
+				.tabItem {
+					Label("Timer",systemImage: "timer")
+				}
+			SettingsView()
+				.tabItem {
+					Label("Settings",systemImage: "list.bullet")
+				}
+		}
+	}
+	
 }
 
 struct ContentView_Previews: PreviewProvider {
