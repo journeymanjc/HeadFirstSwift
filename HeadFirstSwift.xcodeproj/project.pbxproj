@@ -13,6 +13,8 @@
 		74D10A7E288703BE00FF03CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D10A7D288703BE00FF03CB /* Preview Assets.xcassets */; };
 		74D10A8528870EA200FF03CB /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D10A8428870EA200FF03CB /* TimerView.swift */; };
 		74D10A8728870F2600FF03CB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D10A8628870F2600FF03CB /* SettingsView.swift */; };
+		74D10A89288731C000FF03CB /* GameScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D10A88288731C000FF03CB /* GameScore.swift */; };
+		74D10A8B2887327A00FF03CB /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D10A8A2887327A00FF03CB /* ScoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		74D10A7D288703BE00FF03CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		74D10A8428870EA200FF03CB /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		74D10A8628870F2600FF03CB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		74D10A88288731C000FF03CB /* GameScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScore.swift; sourceTree = "<group>"; };
+		74D10A8A2887327A00FF03CB /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				74D10A76288703BC00FF03CB /* HeadFirstSwiftApp.swift */,
+				74D10A8A2887327A00FF03CB /* ScoreView.swift */,
 				74D10A78288703BC00FF03CB /* ContentView.swift */,
+				74D10A88288731C000FF03CB /* GameScore.swift */,
 				74D10A8628870F2600FF03CB /* SettingsView.swift */,
 				74D10A8428870EA200FF03CB /* TimerView.swift */,
 				74D10A7A288703BE00FF03CB /* Assets.xcassets */,
@@ -144,9 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				74D10A8528870EA200FF03CB /* TimerView.swift in Sources */,
+				74D10A89288731C000FF03CB /* GameScore.swift in Sources */,
 				74D10A8728870F2600FF03CB /* SettingsView.swift in Sources */,
 				74D10A79288703BC00FF03CB /* ContentView.swift in Sources */,
 				74D10A77288703BC00FF03CB /* HeadFirstSwiftApp.swift in Sources */,
+				74D10A8B2887327A00FF03CB /* ScoreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
